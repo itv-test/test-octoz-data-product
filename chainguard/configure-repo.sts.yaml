@@ -1,0 +1,10 @@
+issuer: https://token.actions.githubusercontent.com
+subject: repo:itv-test/gcp-data-product-template:ref:refs/heads/main
+claim_pattern:
+  workflow_ref: itv-test/gcp-data-product-template/.github/workflows/create-repo.yml@refs/heads/main
+
+permissions:
+  administration: write
+  repository_custom_properties: write
+  contents: write
+  workflows: write
